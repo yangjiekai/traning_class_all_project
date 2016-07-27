@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.albert.myapplication">
-    <!--開啟連外部網頁權限-->
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <!-- 開啟連外部網頁權限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +25,29 @@
         <activity android:name=".FormWidetsActivity" />
         <activity android:name=".ThreadProgressbar" />
         <activity android:name=".FormExpertActivity" />
-        <activity android:name=".ImagesMediaActivity"></activity>
+        <activity android:name=".ImagesMediaActivity" />
+        <activity
+            android:name=".FadActivity"
+            android:label="@string/title_activity_fad"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DialogActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".LayoutsActivit" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MenuAddactivity" />
+        <activity android:name=".MenuAddActivity" />
+        <activity android:name=".MenuInflaterActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity android:name=".ListViewTwolineActivity" />
+        <activity android:name=".ListViewMyAdapterActivity"></activity>
     </application>
 
 </manifest>
